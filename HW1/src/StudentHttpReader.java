@@ -39,18 +39,7 @@ public class StudentHttpReader {
         return student;
     }
 
-    private Student giveStudent(Student student,String line,String Scoreype){
-        String[] values = line.split("\t");
-        //Student.setId(values[0]);
-        //Student.setName(values[1]);
-        if(Scoreype.equalsIgnoreCase("MathScore")){
-            student.setMathScore(values[1]);
-        }else if(Scoreype.equalsIgnoreCase("ChineseScore")){
-            student.setChineseScore(values[1]);
-        } else if (Scoreype.equalsIgnoreCase("EnglishScore")) {
-            student.setEnglishScore(values[1]);
-        }
-        return student;
-    }
+
+
 
 }
