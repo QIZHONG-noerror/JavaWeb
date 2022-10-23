@@ -1,8 +1,11 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 
-public class StudentFileReader {
+public class StudentFileReader extends StudentAbstractReader {
+    /*
     public static List<String> getFile(String filePath){
         System.out.println("Starting to get file...");
         List<String> student = new ArrayList<>();
@@ -30,8 +33,24 @@ public class StudentFileReader {
         student.setName(values[1]);
 
         return student;
+    }*/
+
+        private File file;
+
+        public StudentFileReader(File file) {
+            this.setFile(file);
+        }
+
+        public File getFile() {
+            return file;
+        }
+
+        public void setFile(File file) {
+            this.file = file;
+        }
+
+    @Override
+    public InputStream getInputSteam() throws FileNotFoundException {
+        return new FileInputStream(this.getFile());
     }
-
-
-
 }

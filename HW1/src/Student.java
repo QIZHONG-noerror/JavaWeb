@@ -1,110 +1,73 @@
+
+
 public class Student {
-    String id;
-    String name;
-    private int MathScore;
-    private int  ChineseScore;
-    private int  EnglishScore;
-    private int Average_Score;
-    private int Total_Score;
-    private String classType;
+    private String id;
+    private String name;
+    private int math;
+    private int chinese;
+    private int english;
 
-    public Student(){
+    public Student() {
 
     }
 
-    public Student(String id,String name){
+    public Student(String id, String name) {
 
-    }
-
-    public String getId() {
-        return id;
     }
 
     public void setId(String id) {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getId() {
+        return this.id;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public int getMathScore() {
-        return MathScore;
+    public String getName() {
+        return this.name;
     }
 
-    public void setMathScore(int mathScore) {
-        MathScore = mathScore;
+    public String toString() {
+        return String.format(
+                "%s, %s, %s, %s, %s",
+                this.getId(), this.getName(),this.getMath(), this.getChinese(),this.getEnglish()
+        );
     }
 
-    public int getChineseScore() {
-        return ChineseScore;
+    public int getTotal(){
+        return this.getMath() + this.getChinese() + this.getEnglish();
     }
 
-    public void setChineseScore(int chineseScore) {
-        ChineseScore = chineseScore;
+    public double getAverage(){
+        return this.getTotal() / 4.0;
     }
 
-    public int getEnglishScore() {
-        return EnglishScore;
+    public int getMath() {
+        return math;
     }
 
-    public void setEnglishScore(int englishScore) {
-        EnglishScore = englishScore;
+    public void setMath(int math) {
+        this.math = math;
     }
 
-    public int getAverage_Score() {
-        return Average_Score;
+    public int getChinese() {
+        return chinese;
     }
 
-    public void setAverage_Score(int MathScore, int ChineseScore, int EnglishScore) {
-        Average_Score = (MathScore + ChineseScore + EnglishScore)/3;
+    public void setChinese(int chinese) {
+        this.chinese = chinese;
     }
 
-    public int getTotal_Score() {
-        return Total_Score;
+    public int getEnglish() {
+        return english;
     }
 
-    public void setTotal_Score(int MathScore, int ChineseScore, int EnglishScore) {
-        Total_Score = MathScore + ChineseScore + EnglishScore;
+    public void setEnglish(int english) {
+        this.english = english;
     }
 
-    public String getClassType() {
-        return classType;
-    }
-
-    public void setClassType(String classType) {
-        this.classType = classType;
-    }
-
-    public int getScores(String Scoretype){
-        //Student.setId(values[0]);
-        //Student.setName(values[1]);
-        if(Scoretype.equalsIgnoreCase("Math")){
-            return getMathScore();
-        }else if(Scoretype.equalsIgnoreCase("Chinese")){
-            return getChineseScore();
-        } else if (Scoretype.equalsIgnoreCase("English")) {
-            return getEnglishScore();
-        }else {
-            return -1;
-        }
-    }
-
-    public void SetScores(String line,String Scoretype){
-        String[] values = line.split("\t");
-        //Student.setId(values[0]);
-        //Student.setName(values[1]);
-        if(Scoretype.equalsIgnoreCase("MathScore")){
-            this.setMathScore(Integer.parseInt(values[1]));
-        }else if(Scoretype.equalsIgnoreCase("ChineseScore")){
-            this.setChineseScore(Integer.parseInt(values[1]));
-        } else if (Scoretype.equalsIgnoreCase("EnglishScore")) {
-            this.setEnglishScore(Integer.parseInt(values[1]));
-        }
-    }
 }
-

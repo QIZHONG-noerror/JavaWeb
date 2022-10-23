@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -9,7 +6,8 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentHttpReader {
+class StudentHttpReader extends StudentAbstractReader{
+    /*
     public static List<String> getFile(String urlPath){
         System.out.println("Start to get file from URL...");
         List<String> student = new ArrayList<>();
@@ -38,8 +36,24 @@ public class StudentHttpReader {
         System.out.println("Finished getting the data from URL");
         return student;
     }
+    */
+    private URL url;
+    public StudentHttpReader(URL url){
+        this.setUrl(url);
+    }
 
+    @Override
+    public InputStream getInputSteam() throws IOException {
+        URLConnection connection = this.getUrl().openConnection();
+        InputStream inputStream = connection.getInputStream();
+        return inputStream;
+    }
 
+    public URL getUrl() {
+        return url;
+    }
 
-
+    public void setUrl(URL url) {
+        this.url = url;
+    }
 }
