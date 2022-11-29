@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4e00682-d2c0-4d7e-bd88-8b2f82fdb43c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/BookManagerSystem/user/ValidateCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/BookManagerSystem/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/BookManagerSystem/image/DrawImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conf/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/ValidateCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/image/DrawImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/submit-book.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/submit-book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookManagerSystem/book/ListBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookManagerSystem/book/ListBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookManagerSystem/user/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookManagerSystem/user/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookManagerSystem/user/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookManagerSystem/user/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book/ListBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/ListBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookManagerSystemPool1114ex/src/user/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BookManagerSystemPool1114ex/src/user/LoginServlet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebRoot/login.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/user/AuthFilter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/user/LoginServlet.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HJ1q0YxSUCgfPrOJEPxI6R6eEo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/my_desktop/JavaCode/java_web/BookManagerSystem/WebRoot/WEB-INF/lib/mysql-connector-j-8.0.31.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24794239&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my_desktop\JavaCode\java_web\BookManagerSystem\src" />
+      <recent name="E:\my_desktop\JavaCode\java_web\BookManagerSystem\WebRoot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my_desktop\JavaCode\java_web\BookManagerSystemPool1114ex\WebRoot" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="user" />
+      <recent name="db" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.BookManagerTomcat">
+    <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="db.DBTest" />
+      <module name="BookManagerSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="db.DBTest" />
+      <module name="BookManagerSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="image.DrawImage" />
+      <module name="BookManagerSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="image.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="user.UserTest" />
+      <module name="BookManagerSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookManagerTomcat" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/BMS" />
+      <option name="docBase" value="$PROJECT_DIR$/WebRoot" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.23" />
+          <option name="path" value="$PROJECT_DIR$/../../../Tomcat/apache-tomcat-10.0.23-windows-x64/apache-tomcat-10.0.23" />
+          <option name="version" value="10.0.23.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.DrawImage" />
+        <item itemvalue="应用程序.UserTest" />
+        <item itemvalue="应用程序.DBTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e4e00682-d2c0-4d7e-bd88-8b2f82fdb43c" name="变更" comment="" />
+      <created>1667988561989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667988561989</updated>
+    </task>
+    <servers />
+  </component>
+</project>
