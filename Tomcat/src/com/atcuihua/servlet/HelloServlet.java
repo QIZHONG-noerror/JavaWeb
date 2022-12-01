@@ -1,8 +1,13 @@
 package com.atcuihua.servlet;
 import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 public class HelloServlet implements Servlet{
+    public HelloServlet() {
+
+    }
+
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
 
@@ -17,7 +22,28 @@ public class HelloServlet implements Servlet{
     */
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        System.out.println("Hello Servlet");
+        //类型转换 HttpServletRequest下有getMethod
+        HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
+        //获取请求的方法
+        String method = httpServletRequest.getMethod();
+        //System.out.println(method);
+        if("get".equalsIgnoreCase(method)){
+            doGet();
+        }else if("post".equalsIgnoreCase(method)){
+            doPost();
+        }
+    }
+    /*
+    做get request的操作
+    */
+    public void doGet(){
+        System.out.println("get request");
+    }
+    /*
+    做get request 方法
+    */
+    public void doPost(){
+        System.out.println("post request");
     }
 
     @Override
