@@ -6,7 +6,7 @@
   </welcome-file-list>
   <servlet>
     <servlet-name>CheckImgServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.utils.CheckImgServlet</servlet-class>
+    <servlet-class>cn.cuihua.utils.CheckImgServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>CheckImgServlet</servlet-name>
@@ -16,7 +16,7 @@
     <description></description>
     <display-name>ProductServlet</display-name>
     <servlet-name>ProductServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.web.servlet.ProductServlet</servlet-class>
+    <servlet-class>cn.cuihua.web.servlet.ProductServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ProductServlet</servlet-name>
@@ -26,7 +26,7 @@
     <description></description>
     <display-name>UserServlet</display-name>
     <servlet-name>UserServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.web.servlet.UserServlet</servlet-class>
+    <servlet-class>cn.cuihua.web.servlet.UserServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>UserServlet</servlet-name>
@@ -36,7 +36,7 @@
     <description></description>
     <display-name>CartServlet</display-name>
     <servlet-name>CartServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.web.servlet.CartServlet</servlet-class>
+    <servlet-class>cn.cuihua.web.servlet.CartServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>CartServlet</servlet-name>
@@ -46,7 +46,7 @@
     <description></description>
     <display-name>OrderServlet</display-name>
     <servlet-name>OrderServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.web.servlet.OrderServlet</servlet-class>
+    <servlet-class>cn.cuihua.web.servlet.OrderServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>OrderServlet</servlet-name>
@@ -56,7 +56,7 @@
     <description></description>
     <display-name>CallBackServlet</display-name>
     <servlet-name>CallBackServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.web.servlet.CallBackServlet</servlet-class>
+    <servlet-class>cn.cuihua.web.servlet.CallBackServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>CallBackServlet</servlet-name>
@@ -66,7 +66,7 @@
     <description></description>
     <display-name>AdminServlet</display-name>
     <servlet-name>AdminServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.web.servlet.AdminServlet</servlet-class>
+    <servlet-class>cn.cuihua.web.servlet.AdminServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>AdminServlet</servlet-name>
@@ -76,7 +76,7 @@
     <description></description>
     <display-name>AdminAddProductServlet</display-name>
     <servlet-name>AdminAddProductServlet</servlet-name>
-    <servlet-class>cn.ruanwenjun.web.servlet.AdminAddProductServlet</servlet-class>
+    <servlet-class>cn.cuihua.web.servlet.AdminAddProductServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>AdminAddProductServlet</servlet-name>
