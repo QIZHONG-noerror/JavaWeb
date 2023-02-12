@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
-        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -239,5 +238,11 @@
     </orderEntry>
     <orderEntry type="library" name="servlet-api" level="project" />
     <orderEntry type="library" name="servlet-api _" level="project" />
+    <orderEntry type="library" name="annotations-api" level="project" />
+    <orderEntry type="library" name="jsp-api" level="project" />
+    <orderEntry type="library" name="tomcat-api" level="project" />
+    <orderEntry type="library" name="annotations-api (2)" level="project" />
+    <orderEntry type="library" name="javax.transaction" level="project" />
+    <orderEntry type="library" name="tomcat-api (2)" level="project" />
   </component>
 </module>

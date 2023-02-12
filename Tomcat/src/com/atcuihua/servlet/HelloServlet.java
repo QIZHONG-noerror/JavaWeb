@@ -4,13 +4,20 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 public class HelloServlet implements Servlet{
+
     public HelloServlet() {
 
     }
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-
+//        1、可以获取Servlet程序的别名servlet-name的值
+        System.out.println("HelloSerclet程序的别名：" + servletConfig.getServletName());
+//        2、获取初冶化参数init-param
+        System.out.println("初始化参数username：" + servletConfig.getInitParameter("username"));
+        System.out.println("初始化参数url：" + servletConfig.getInitParameter("url"));
+//        3、获取servletContext对象
+        System.out.println(servletConfig.getServletContext());
     }
 
     @Override
@@ -27,9 +34,9 @@ public class HelloServlet implements Servlet{
         //获取请求的方法
         String method = httpServletRequest.getMethod();
         //System.out.println(method);
-        if("get".equalsIgnoreCase(method)){
+        if("GET".equals(method)){
             doGet();
-        }else if("post".equalsIgnoreCase(method)){
+        }else if("POST".equals(method)){
             doPost();
         }
     }
